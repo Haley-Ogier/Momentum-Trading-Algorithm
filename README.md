@@ -58,4 +58,4 @@ The algorithm was optimized over a 3-year set of data and tested on out-of-sampl
 ## Additional Information
 This algorithm is a result of extensive research and testing to develop a strategy that leverages technical indicators for trading. It includes detailed calculations for Stochastic RSI, RSI, EMA, and implements a robust trailing stop loss mechanism using the ATR. The backtesting functionality allows for performance evaluation over historical data, providing insights into the algorithm's effectiveness. backtesting functionality allows for performance evaluation over historical data, providing insights into the algorithm's effectiveness.
 
-If you have any questions or need further information, please feel free to contact me.
+If you have any questions or would like access to the full code, please feel free to contact me.
