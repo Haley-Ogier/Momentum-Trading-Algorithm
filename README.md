@@ -41,6 +41,12 @@ The backtest results for the trading algorithm are as follows (initial capital: 
 - **Win Rate**: 42.62%
 - **Annual Average Return (CAGR)**: 60.87%
 
+The benchmark used is QQQ. If a buy and hold strategy were implemented over the same period, the total return would be 52.86%. My algorithm outperforms this by approximately 3x.
+<img width="1008" alt="image" src="https://github.com/user-attachments/assets/76641d50-0531-495f-9a8f-74b01babc8f0">
+
+<img width="1038" alt="image" src="https://github.com/user-attachments/assets/35948fc4-2d58-47fb-ac6f-ee95cccdc394">
+
+
 ## Code Base
 The algorithm is implemented in Python and utilizes the following libraries:
 
