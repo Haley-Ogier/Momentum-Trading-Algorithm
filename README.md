@@ -12,17 +12,7 @@ The algorithm calculates and uses the following indicators:
 - **ATR (Average True Range)**: Used to measure market volatility by decomposing the entire range of an asset price for that period, and is used to calculate the trailing stop loss for both long and short trades.
 
 ## Strategy
-The strategy implemented in this algorithm includes:
-
-### Long Entry Conditions:
-- **Stochastic RSI Crossover**: The %K line of the Stochastic RSI crosses above the %D line.
-- **RSI Threshold**: The RSI value is above 50, indicating bullish momentum.
-- **Price Above EMA**: The closing price is above the EMA, indicating an upward trend.
-
-### Short Entry Conditions:
-- **RSI Crossover**: The RSI value is below 50 and was above 50 in the previous period, indicating a potential downward movement.
-- **Stochastic RSI Position**: The %K line is below the %D line and the %K line is decreasing, indicating bearish momentum.
-- **Price Below EMA**: The closing price is below the EMA, indicating a downward trend.
+The strategy implemented in this algorithm includes extensive long and short conditions.
 
 ### Order Management:
 - **Trailing Stop Loss**: Orders are managed with a trailing stop loss for both long and short positions to maximize profits and minimize losses. The trailing stop loss is calculated using the ATR.
